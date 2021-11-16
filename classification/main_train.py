@@ -56,7 +56,7 @@ parser.add_argument('--use_s1', action='store_true', default=False,
                     help='use sentinel-1 data')
 parser.add_argument('--use_RGB', action='store_true', default=False,
                     help='use sentinel-2 RGB bands')
-parser.add_argument('--IGBP_simple', action='store_true', default=True,
+parser.add_argument('--IGBP_simple', action='store_true', default=False,
                     help='use IGBP simplified scheme; otherwise: IGBP original scheme')
 parser.add_argument('--label_type', type=str, choices = label_choices,
                     default='multi_label',
